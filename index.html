@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>4 Years</title>
+<style>
+body{margin:0;background:#090909;color:#fff;font-family:Georgia,serif;overflow-x:hidden}
+#lock,#content{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px}
+input,button{padding:12px;border-radius:8px;border:none;font-size:18px}
+button{background:#b3002d;color:#fff;margin-top:10px;cursor:pointer}
+h1{font-family:cursive;color:#e11d48;font-size:56px;text-shadow:0 0 20px #ff4d6d;text-align:center}
+.card{max-width:900px;background:rgba(255,255,255,.06);padding:30px;border-radius:20px;line-height:1.8;animation:fade 1.5s}
+.heart{position:fixed;bottom:-20px;color:#ff4d6d;animation:float 8s linear infinite;font-size:20px}
+@keyframes float{to{transform:translateY(-110vh)}}
+@keyframes fade{from{opacity:0;transform:translateY(20px)}to{opacity:1}}
+</style></head>
+<body>
+<div id="lock">
+<h2>🔒 Enter Password</h2>
+<input id="pw" type="password" placeholder="Password">
+<button onclick="go()">Open</button><p id="msg"></p></div>
+<div id="content" style="display:none">
+<h1>MAHHH LOVEE!!!&lt;3</h1>
+<div class="card"><p>Sooo, Firstly I LOVEEE YOUUUU SOOO MUCHHHH!!<br><br>It's kinda very cutely hard to believe that 4yrs back I saw a gurl n after not much efforts I gott the access directly to her heart n today It's marking for 4 years of Togetherness!! Haha Loved Itt...<br><br>Apart from a Relationship. I can sayy we have a Good bond together,Good understanding together, n The Bestesttt We Love Eachother. I'm sooo Greatful to have Youuu. I know Youu would think what youu have that I'm soo obsessed of Youu Ryt soo listen I consider myself with U as Peace.. The Peace of ocean that drowns me in the depth of itt and gives me the bestest part of my time and life together. I was never a quite person until I found it's not like I can't It's like the silence between us too has the more noisee of Lovee cravingg for Yourr affectionn.. I'm Grateful that Youu Love me back more than I doo.. Thiss is what your Lover boy wants from youu.. There have been lots of moments like you mentioned the fireworks of when we met ahh that was cutely described in your Letter I Loved readinggg Ittt!! Like that the same thing I felt multiple times but I would recall the one from itt.. It was when we had annual day in school n we gone out n met on top of the city I guess.. Exactly same time Idk what happened to mee but I had forgotten that I'm grown up boy.. I was acting like a small child which was sudden of mee.. I got the very best place to rest my head on your lap n that silence was just Heavenn for mee..I consider that Peace! From there I got myself endlessly more comfortable I've decided to show up My every Loving side only for Youu!! Because it's been Youuuuu n Only Youuu!!...<br><br>I've learnt to be kind, I've learnt to Respect, I've learnt Love endlessly in Lovee with Youuu..<br><br>I know you get some shitty thoughts but I believe in 'Uss'. Don't worry much about it until your Boy is Alive... N the very finest thing I would sayy we are growing togetherr thiss 4yrs tells uss we've grown ourselves together just tell me what is this myth like we never had fight in this timeperiod I'm soo impressed of thiss thingg(but nng jagla madud ayti 'pillow fight with youu').. N Lovee thinking about Youu, I Lovee complementing youu, I Love imagining uss, I Love the cravinggs between uss. N lastly I'm in Lovee with Uss kinda jealously Lovee withh Ittt!!! I know it's very late what I've written but I gave myself a purrfect time for itt bcuzz it's not someone it's Youuu!! I Loveee Youuuuu Sooo Muchh Lovieeee!!</p><h2 style='text-align:center;color:#ff6b81'>❤️ Happy 4 Years Together ❤️</h2></div></div>
+<script>
+function go(){if(document.getElementById('pw').value==='0105'){lock.style.display='none';content.style.display='flex';}else msg.textContent='Wrong password ❤️';}
+for(let i=0;i<35;i++){let h=document.createElement('div');h.className='heart';h.innerHTML='❤';h.style.left=Math.random()*100+'vw';h.style.animationDelay=(Math.random()*8)+'s';document.body.appendChild(h);}
+</script></body></html>
